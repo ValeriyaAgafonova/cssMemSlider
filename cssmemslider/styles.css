@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    background: url('./fon.jpeg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 80vh;
+    margin: 0 1vh;
+    height: 60vh;
+    padding-top: 5vh;
+    background-color: rgb(187, 228, 243);
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.mem-slider{
+    width: 500%;
+    height: 40vh;
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+input{
+    display: none;
+}
+.inputs{
+    display: flex;
+    column-gap: 10px;
+    background-color: rgb(187, 228, 243);
+    justify-content: flex-end;
+}
+.area{
+    width: 5vh;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.area label{
+    border-radius: 50%;
+    width: 2vh;
+    height: 2vh;
+    background-color: white;
+    cursor: pointer;
+}
+.area:hover label{
+background-color: rgb(165, 193, 235);
+}
+.text-slides{
+display: flex;
+width: 500%;
+
+}
+.text{
+    width: 100%;
+}
