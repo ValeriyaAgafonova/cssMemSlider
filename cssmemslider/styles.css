@@ -51,7 +51,7 @@ input{
 .inputs{
     display: flex;
     height: 5vh;
-    column-gap: 10px;
+    column-gap: 1vh;
     background-color: rgb(187, 228, 243);
     justify-content: flex-end;
 }
